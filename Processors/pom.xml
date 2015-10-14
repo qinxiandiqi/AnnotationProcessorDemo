@@ -24,6 +24,7 @@
                     <compilerVersion>${JAVA_VERSION}</compilerVersion>
                     <source>${JAVA_VERSION}</source>
                     <target>${JAVA_VERSION}</target>
+                    <encoding>${ENCODING}</encoding>
                     <compilerArgument>-proc:none</compilerArgument>
                 </configuration>
             </plugin>
