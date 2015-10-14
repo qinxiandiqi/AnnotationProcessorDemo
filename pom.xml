@@ -10,12 +10,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <JAVAC_PATH>${env.JAVA_HOME}</JAVAC_PATH>
+        <JAVAC_PATH>${env.JAVA_HOME}/bin/javac</JAVAC_PATH>
         <JAVA_VERSION>1.8</JAVA_VERSION>
     </properties>
 
     <modules>
         <module>Annotations</module>
         <module>Processors</module>
+        <module>Client</module>
     </modules>
 </project>
