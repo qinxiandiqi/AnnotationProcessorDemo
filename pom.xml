@@ -16,6 +16,25 @@
         <COMPILE_PLUGIN_VERSION>3.3</COMPILE_PLUGIN_VERSION>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${COMPILE_PLUGIN_VERSION}</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <fork>true</fork>
+                    <executable>${JAVAC_PATH}</executable>
+                    <compilerVersion>${JAVA_VERSION}</compilerVersion>
+                    <source>${JAVA_VERSION}</source>
+                    <target>${JAVA_VERSION}</target>
+                    <encoding>${ENCODING}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <modules>
         <module>Annotations</module>
         <module>Processors</module>
