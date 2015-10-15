@@ -11,8 +11,9 @@
 
     <properties>
         <JAVAC_PATH>${env.JAVA_HOME}/bin/javac</JAVAC_PATH>
-        <JAVA_VERSION>1.6</JAVA_VERSION>
+        <JAVA_VERSION>1.8</JAVA_VERSION>
         <ENCODING>UTF-8</ENCODING>
+        <COMPILE_PLUGIN_VERSION>3.3</COMPILE_PLUGIN_VERSION>
     </properties>
 
     <modules>

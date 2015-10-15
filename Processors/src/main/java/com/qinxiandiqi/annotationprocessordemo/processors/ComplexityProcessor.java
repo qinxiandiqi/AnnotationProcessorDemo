@@ -16,7 +16,7 @@ import java.util.Set;
  * Created by Jianan on 2015/10/14.
  */
 @SupportedAnnotationTypes("com.qinxiandiqi.annotationprocessordemo.annotations.Complexity")
-@SupportedSourceVersion(SourceVersion.RELEASE_6)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class ComplexityProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
