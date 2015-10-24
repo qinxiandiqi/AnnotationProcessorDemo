@@ -1,1 +1,2 @@
 com.qinxiandiqi.annotationprocessordemo.processors.ComplexityProcessor
+com.qinxiandiqi.annotationprocessordemo.processors.BeanInfoProcessor
