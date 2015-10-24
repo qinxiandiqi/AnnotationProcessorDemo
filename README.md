@@ -10,7 +10,10 @@ Java annotation processor demo.
 
 ## 2.Project Detail - 项目详情
 
-项目详情请查看译文：[Java语言使用注解处理器生成代码——第二部分：注解处理器](http://blog.csdn.net/qinxiandiqi/article/details/49182735)
+项目详情请查看译文：  
+[Java语言使用注解处理器生成代码——第一部分：注解类型](http://blog.csdn.net/qinxiandiqi/article/details/48999291)  
+[Java语言使用注解处理器生成代码——第二部分：注解处理器](http://blog.csdn.net/qinxiandiqi/article/details/49182735)  
+[Java语言使用注解处理器生成代码——第三部分：生成源代码](http://blog.csdn.net/qinxiandiqi/article/details/49387559)
 
 # Licensse
 
